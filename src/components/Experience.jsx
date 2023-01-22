@@ -1,62 +1,76 @@
 import React from "react";
-
+import SQL from "../assets/SQL.png"
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import solidity from "../assets/solidity.png"
+import python from "../assets/python.png"
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 2,
       src: html,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
-      id: 2,
+      id: 3,
       src: css,
-      title: "CSS",
+      title
+      : "CSS",
       style: "shadow-blue-500",
     },
     {
-      id: 3,
+      id: 4,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 5,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 7,
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      id: 8,
+      src: SQL,
+      title: "SQL",
+      style: "shadow-blue-400",
     },
     {
-      id: 8,
+      id: 9,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: solidity,
+      title: "Solidity",
       style: "shadow-gray-400",
     },
   ];

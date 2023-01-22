@@ -22,32 +22,32 @@ const Portfolio = () => {
     {
       id: 2,
       src: installNode,
-      url: '',
-      code: '',
+      url: 'https://github.com/swastiksuvam55/Music-NFT-Marketplace',
+      code: 'https://github.com/swastiksuvam55/Music-NFT-Marketplace',
     },
     {
       id: 3,
       src: moksha,
-      url: '',
-      code: '',
+      url: 'https://swastiksuvam55.github.io/moksha/',
+      code: 'https://github.com/swastiksuvam55/moksha',
     },
     {
       id: 4,
       src: CircleClone,
-      url: '',
-      code: '',
+      url: 'https://circle-site-copy.webflow.io/',
+      code: 'https://preview.webflow.com/preview/circle-site-copy?utm_medium=preview_link&utm_source=designer&utm_content=circle-site-copy&preview=4cfe75e65464d6b302e8d19ea1558d7d&workflow=preview',
     },
     {
       id: 5,
       src: biodata,
-      url: '',
-      code: '',
+      url: 'https://deft-donut-db6f37.netlify.app/',
+      code: 'https://github.com/swastiksuvam55/Bio-data-page',
     },
     {
       id: 6,
       src: dragdrop,
-      url: '',
-      code: '',
+      url: 'https://iridescent-alpaca-aca643.netlify.app/',
+      code: 'https://github.com/swastiksuvam55/drag-drop-grid',
     },
   ];
 
