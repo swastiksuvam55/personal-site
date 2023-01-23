@@ -1,11 +1,11 @@
 import React from "react";
 import TravelCompanion from "../assets/portfolio/TravelCompanion.png";
-import installNode from "../assets/portfolio/installNode.jpg";
+import MUSICNFT from "../assets/portfolio/MUSICNFT.png";
 import moksha from "../assets/portfolio/moksha.png";
 import CircleClone from "../assets/portfolio/CircleClone.png";
 import biodata from "../assets/portfolio/biodata.png";
-import dragdrop from "../assets/portfolio/drag&drop.png";
 import { useState, useEffect } from "react";
+import blogpost from "../assets/portfolio/Blogpost.png"
 
 const Portfolio = () => {
 
@@ -21,7 +21,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: installNode,
+      src: MUSICNFT,
       url: 'https://github.com/swastiksuvam55/Music-NFT-Marketplace',
       code: 'https://github.com/swastiksuvam55/Music-NFT-Marketplace',
     },
@@ -33,21 +33,21 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      src: blogpost,
+      url: 'https://swastiks-marvelous-site-4fe092.webflow.io/',
+      code: 'https://preview.webflow.com/preview/swastiks-marvelous-site-4fe092?utm_medium=preview_link&utm_source=designer&utm_content=swastiks-marvelous-site-4fe092&preview=07b9f05325d7111b230982446c86e398&workflow=preview',
+    },
+    {
+      id: 5,
       src: CircleClone,
       url: 'https://circle-site-copy.webflow.io/',
       code: 'https://preview.webflow.com/preview/circle-site-copy?utm_medium=preview_link&utm_source=designer&utm_content=circle-site-copy&preview=4cfe75e65464d6b302e8d19ea1558d7d&workflow=preview',
     },
     {
-      id: 5,
+      id: 6,
       src: biodata,
       url: 'https://deft-donut-db6f37.netlify.app/',
       code: 'https://github.com/swastiksuvam55/Bio-data-page',
-    },
-    {
-      id: 6,
-      src: dragdrop,
-      url: 'https://iridescent-alpaca-aca643.netlify.app/',
-      code: 'https://github.com/swastiksuvam55/drag-drop-grid',
     },
   ];
 
